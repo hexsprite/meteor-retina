@@ -2,7 +2,7 @@ Package.describe({
   name: 'visudare:retina',
   version: '0.0.1',
   summary: 'Simple retina (@2x) solution (reactive on template rendering)',
-  git: '',
+  git: 'https://github.com/Visudare/meteor-retina.git',
   documentation: 'README.md'
 });
 
