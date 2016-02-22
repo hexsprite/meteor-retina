@@ -1,15 +1,15 @@
 Package.describe({
-  name: 'visudare:retina',
-  version: '0.0.5',
+  name: 'hexsprite:retina',
+  version: '0.0.6',
   summary: 'Simple retina (@2x) solution (reactive on template rendering)',
-  git: 'https://github.com/Visudare/meteor-retina.git',
+  git: 'https://github.com/hexsprite/meteor-retina.git',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
   api.use('underscore');
   api.use('templating');
-  api.use('aldeed:template-extension@3.4.3');
+  api.use('aldeed:template-extension@4.0.0');
   api.use('visudare:retinajs@1.0.0');
   api.export('Retina');
   api.versionsFrom('1.1.0.2');
